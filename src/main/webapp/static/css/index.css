@@ -1,0 +1,47 @@
+@charset "UTF-8";
+.clearfix::after,
+.clearfix::before{
+   content: "";
+   display: table;
+   clear: both; 
+}
+.nav{
+	width:100%;
+	height:50px;
+	background-color:rgb(249, 249, 249);
+}
+.nav span{
+	line-height:50px;
+}
+.nav .right{
+	float:right;
+	padding-left:50px;
+}
+.nav .right a{
+	margin-left:20px;
+	text-decoration: none;
+}
+li{
+	list-style: none;
+	float: left;
+}
+li .shops{
+	width:200px;
+	height:320px;
+	border: 1px solid black;
+	padding-left:25px;
+	margin-left:25px;
+}
+li .shops p{
+	
+	line-height:20px
+	
+}
+li .shops p .number{
+	width:50px
+}
+li .shops img{
+	width:150px;
+	height:150px;
+
+}

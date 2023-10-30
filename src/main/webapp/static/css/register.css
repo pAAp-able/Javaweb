@@ -1,0 +1,19 @@
+@charset "UTF-8";
+body{
+	background-color: aqua;
+}
+div{
+	height:200px;
+	width:100%;
+	background-color: white;
+}
+form p span{
+	display:inline-block;
+	width:100px;
+}
+form p{
+	margin:10px 0px;
+}
+h1,form{
+	margin-left:40%;;
+}

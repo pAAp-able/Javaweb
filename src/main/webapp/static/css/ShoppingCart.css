@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+h1{
+	margin-top:30px;
+	margin-left:45%;
+}
+.order {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 852px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-image {
+    flex-basis: 100px;
+    flex-grow: 0;
+    height: 60px;
+    margin-bottom: -4px;
+}
+
+.product-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    flex-basis: 100%;
+    /* 撑满一行宽度 */
+}
+
+.product-quantity,
+.product-amount,
+.shipping-status,
+.confirm-button {
+    flex-basis: 100%;
+    /* 撑满一行宽度 */
+    margin-bottom: 10px;
+}
+
+.confirm-button {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}

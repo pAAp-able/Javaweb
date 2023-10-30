@@ -1,0 +1,64 @@
+@charset "UTF-8";
+   .content {
+       display: flex;
+       flex-direction:column;
+       align-items: center;
+       height: 100vh;
+   }
+
+   .usercontent {
+   		width:500px;
+       border: 1px solid #ccc;
+       padding: 0px;
+       margin-bottom:20px;
+   }
+
+   .address {
+   	background-color: gray;
+       color: white;
+       margin:0px;
+   }
+
+   .userinfo {
+       display: flex;
+       align-items: center;
+       font-size: 18px;
+   }
+
+   .userinfo span {
+       margin-right: 10px;
+       margin-left: 10px;
+   }
+
+   .goodscontent {
+       border: 1px solid #ccc;
+       padding: 0px;
+       width:500px;
+
+   }
+
+   .shopname {
+       background-color: gray;
+       color: white;
+       font-weight: bold;
+       margin:0px;
+		
+   }
+
+   .goodsimage {
+       max-width: 100px;
+        object-fit: cover;
+        margin-right: 10px;
+   }
+   .goodsinfo{
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+   }    
+   .nameandprice {
+        margin-left: 10px;
+    }
+    .number {
+        padding: 5px;
+        margin-left: auto;
+    }
